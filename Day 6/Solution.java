@@ -18,7 +18,7 @@ public class Solution{
             } 
             System.out.print(" ");
             for(int j=0;j<s.length();j++){
-                if(j%2==1){
+                if(j%2!=0){
                     System.out.print(s.charAt(j));
                 }
     
