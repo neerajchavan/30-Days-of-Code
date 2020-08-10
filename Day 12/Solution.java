@@ -17,8 +17,7 @@ class Person {
 		 System.out.println(
 				"Name: " + lastName + ", " + firstName 
 			+ 	"\nID: " + idNumber); 
-	}
-	 
+	}	 
 }
 
 class Student extends Person{
@@ -37,10 +36,6 @@ class Student extends Person{
    super(firstname, lastname, idNumber);    
    this.testScores = testScores;
    }
-
-
-
-
     /*	
     *   Method Name: calculate
     *   @return A character denoting the grade.
